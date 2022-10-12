@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home2/tdajywmy/vmd
+    - export DEPLOYPATH=/home2/tdajywmy/repositories/vmd
     - /bin/cp -R * $DEPLOYPATH
