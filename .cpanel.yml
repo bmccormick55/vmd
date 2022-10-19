@@ -1,5 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home2/tdajywmy/repositories/vmd
-    - /bin/cp -R * $DEPLOYPATH
+    - export DEPLOYPATH=/home2/tdajywmy/vmd
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
